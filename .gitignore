@@ -1,0 +1,42 @@
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment variable files
+.env
+.env.local
+.env.*.local
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore coverage folder (for testing frameworks like Jest)
+coverage/
+
+# Ignore build files
+build/
+dist/
+
+# Ignore cache directories
+.cache/
+.nyc_output/
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore npm and Yarn files
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Ignore miscellaneous
+*.swp
